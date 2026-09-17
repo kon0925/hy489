@@ -20,7 +20,7 @@ Each lab lives in its own subfolder with its data, notebooks, SQL and handout.
 | | Lab | Date | Graded | Folder |
 |---|---|---|---|---|
 | 1 | Foundations — environment, a real dataset, SQL refresher | Fri 2 Oct | no | [`lab01/`](lab01/) |
-| 2 | FHIR in practice | Fri 16 Oct | yes | `lab02/` *(to follow)* |
+| 2 | FHIR in practice — read, map, validate, write | Fri 16 Oct | yes | [`lab02/`](lab02/) |
 | 3 | Terminologies and mapping | Fri 30 Oct | yes | `lab03/` *(to follow)* |
 | 4 | Imaging and DICOM | Fri 13 Nov | yes | `lab04/` *(to follow)* |
 | 5 | De-identification and privacy | Fri 27 Nov | yes | `lab05/` *(to follow)* |

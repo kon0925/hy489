@@ -1,0 +1,23 @@
+{
+  "resourceType": "Observation",
+  "identifier": [
+    { "system": "http://csd.uoc.gr/hy489/2026/AM1234", "value": "obs-0091823" }
+  ],
+  "status": "final",
+  "code": {
+    "coding": [
+      { "system": "http://loinc.org", "code": "72166-2", "display": "Tobacco smoking status" }
+    ],
+    "text": "Tobacco smoking status"
+  },
+  "subject": { "reference": "Patient/example" },
+  "effectiveDateTime": "2026-09-14T08:02:00+03:00",
+  "valueCodeableConcept": {
+    "coding": [
+      { "system": "http://snomed.info/sct", "code": "8517006",
+        "display": "Ex-smoker" }
+    ],
+    "text": "Former smoker"
+  },
+  "_comment": "This is the shape to use when the CSV row has a text VALUE and an empty UNITS. Do not force it into a valueQuantity."
+}

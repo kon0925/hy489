@@ -1,0 +1,23 @@
+{
+  "resourceType": "Condition",
+  "identifier": [
+    { "system": "http://csd.uoc.gr/hy489/2026/AM1234", "value": "cond-000417" }
+  ],
+  "clinicalStatus": {
+    "coding": [
+      { "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "active" }
+    ]
+  },
+  "code": {
+    "coding": [
+      { "system": "http://snomed.info/sct",
+        "code": "59621000",
+        "display": "Essential hypertension (disorder)" }
+    ],
+    "text": "Essential hypertension (disorder)"
+  },
+  "subject": { "reference": "Patient/example" },
+  "encounter": { "reference": "Encounter/example" },
+  "onsetDateTime": "2019-04-02T09:15:00+03:00"
+}

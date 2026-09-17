@@ -1,0 +1,4 @@
+requests>=2.31
+fhir.resources>=7.1
+pandas>=2.0
+jupyter

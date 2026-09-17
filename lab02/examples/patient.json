@@ -1,0 +1,9 @@
+{
+  "resourceType": "Patient",
+  "identifier": [
+    { "system": "http://csd.uoc.gr/hy489/2026/AM1234",
+      "value": "7f3a1c28-0b14-4d9e-9f21-6ac0c0d4e511" }
+  ],
+  "gender": "female",
+  "birthDate": "1964-03-11"
+}
