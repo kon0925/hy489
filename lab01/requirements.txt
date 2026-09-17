@@ -1,0 +1,6 @@
+pandas>=2.0
+SQLAlchemy>=2.0
+jupyter
+matplotlib
+# PostgreSQL driver. Skip it if you are using SQLite today.
+psycopg[binary]>=3.1

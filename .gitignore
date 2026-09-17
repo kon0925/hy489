@@ -1,0 +1,20 @@
+# environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# notebooks
+.ipynb_checkpoints/
+
+# local databases produced during the labs
+*.db
+*.sqlite
+*.sqlite3
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
