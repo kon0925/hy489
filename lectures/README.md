@@ -12,7 +12,8 @@ None of it is graded. The graded work is in the `labNN/` folders.
 | 2 | Health information systems | The mini-EHR, and an HL7 v2 parser | [`week02/`](week02/) |
 | 3 | Interoperability I: HL7 & FHIR | Read a live FHIR server, then write to it | [`week03/`](week03/) |
 | 4 | Interoperability II: imaging & DICOM | pydicom, then DICOMweb against your own archive | [`week04/`](week04/) |
-| 5+ | | to follow | |
+| 5 | Terminologies & ontologies | Look up codes properly, then measure your own data | [`week05/`](week05/) |
+| 6+ | | to follow | |
 
 ## Common ground
 
