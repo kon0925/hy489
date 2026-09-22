@@ -4,7 +4,7 @@
 Five operations, one small module. Needs network.
 
     python3 terminology.py --demo               # the operations, on known codes
-    python3 terminology.py --validate-dataset   # check every code in lab01/data
+    python3 terminology.py --validate-dataset   # check every code in labs/lab01/data
 
 GROUND RULES: tx.fhir.org is a free community server. Be polite: sequential
 requests, a timeout, and no loops over thousands of codes. If it is down, the
@@ -24,8 +24,8 @@ SCT = "http://snomed.info/sct"
 LOINC = "http://loinc.org"
 ICD10 = "http://hl7.org/fhir/sid/icd-10"
 
-LOCAL = Path(__file__).resolve().parents[2] / "lab01" / "data"
-REMOTE = "https://raw.githubusercontent.com/kon0925/hy489/main/lab01/data/"
+LOCAL = Path(__file__).resolve().parents[2] / "labs" / "lab01" / "data"
+REMOTE = "https://raw.githubusercontent.com/kon0925/hy489/main/labs/lab01/data/"
 
 
 # ---------------------------------------------------------------------------

@@ -14,8 +14,8 @@ from pathlib import Path
 
 import pandas as pd
 
-LOCAL = Path(__file__).resolve().parents[2] / "lab01" / "data"
-REMOTE = "https://raw.githubusercontent.com/kon0925/hy489/main/lab01/data/"
+LOCAL = Path(__file__).resolve().parents[2] / "labs" / "lab01" / "data"
+REMOTE = "https://raw.githubusercontent.com/kon0925/hy489/main/labs/lab01/data/"
 
 
 def rule(title: str) -> None:

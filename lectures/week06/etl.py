@@ -5,7 +5,7 @@
     python3 etl.py --db /tmp/x.db  # somewhere else
 
 This is a real ETL in miniature. It reads the Synthea-shaped CSV export in
-../../lab01/data, maps every source code through the vocabulary in ./vocab, and
+../../labs/lab01/data, maps every source code through the vocabulary in ./vocab, and
 writes eight CDM tables into SQLite. It prints a load report: rows in, rows
 out, rows unmapped. Read that report. It is the deliverable, not the database.
 
@@ -36,7 +36,7 @@ import sys
 from collections import Counter, defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DATA = os.path.normpath(os.path.join(HERE, "..", "..", "lab01", "data"))
+DATA = os.path.normpath(os.path.join(HERE, "..", "..", "labs", "lab01", "data"))
 VOCAB = os.path.join(HERE, "vocab")
 SCHEMA = os.path.join(HERE, "cdm", "schema.sql")
 
@@ -67,7 +67,7 @@ def read_csv(name):
     if not os.path.exists(path):
         sys.exit(
             "Cannot find %s\n"
-            "This script reads the Lab 1 data from ../../lab01/data.\n"
+            "This script reads the Lab 1 data from ../../labs/lab01/data.\n"
             "Clone the whole hy489 repository rather than this folder alone." % path
         )
     with open(path, newline="", encoding="utf-8") as fh:

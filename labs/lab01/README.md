@@ -8,7 +8,7 @@ clinical questions of it. Everything in Labs 2–6 assumes this one works.
 ## Contents
 
 ```
-lab01/
+labs/lab01/
 ├── HANDOUT.md              what to do, in order — start here
 ├── requirements.txt        Python dependencies
 ├── gen_dataset.py          how data/ was generated (you do not need to run it)
@@ -28,7 +28,7 @@ lab01/
 ## Setup
 
 ```bash
-cd lab01
+cd labs/lab01
 python3 -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt

@@ -16,7 +16,7 @@ quietly.
 
 ```bash
 git clone https://github.com/kon0925/hy489.git
-cd hy489/lab01
+cd hy489/labs/lab01
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt

@@ -28,7 +28,7 @@ python3 terminology.py --demo          # the five operations, needs network
 python3 terminology.py --validate-dataset
 ```
 
-`codability.py` reads `../../lab01/data/` and falls back to the GitHub raw URL,
+`codability.py` reads `../../labs/lab01/data/` and falls back to the GitHub raw URL,
 so it works from a clone or from Colab. Point it elsewhere with `--data`.
 
 ## The browsers, for Hands-on A

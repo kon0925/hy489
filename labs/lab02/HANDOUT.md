@@ -15,7 +15,7 @@ Ask a TA after five minutes of being stuck, not after twenty-five.
 
 ```bash
 cd hy489 && git pull
-cd lab02
+cd labs/lab02
 source ../lab01/.venv/bin/activate
 pip install -r requirements.txt
 jupyter notebook notebooks/lab02.ipynb

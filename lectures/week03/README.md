@@ -39,7 +39,7 @@ repeatedly and it writes nothing to the server.
 The default is the public HAPI test server, `https://hapi.fhir.org/baseR4`.
 
 1. **Never post anything real.** Not your own data, not a friend's, not an
-   extract from a placement. The synthetic data in `lab01/data` is the only
+   extract from a placement. The synthetic data in `labs/lab01/data` is the only
    thing you post.
 2. Everything you write is public, and anyone can delete it.
 3. Always pass your own identifier namespace with `--system`, containing your

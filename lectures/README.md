@@ -4,7 +4,7 @@ Code and data for the hands-on segments of the lectures. Every 4-hour lecture
 (Monday and Wednesday, 09:00–11:00) ends in a practical segment; this is what
 those segments run on.
 
-None of it is graded. The graded work is in the `labNN/` folders.
+None of it is graded. The graded work is in [`../labs/`](../labs/).
 
 | Week | Topic | Hands-on | Folder |
 |---|---|---|---|
@@ -18,10 +18,11 @@ None of it is graded. The graded work is in the `labNN/` folders.
 
 ## Common ground
 
-**The data.** Everything reads the synthetic cohort in [`../lab01/data/`](../lab01/data/):
-1,174 patients with their encounters, conditions, observations and medications,
-in the Synthea export schema. There is no second copy. Clone the whole
-repository rather than a single folder.
+**The data.** Everything reads the synthetic cohort in
+[`../labs/lab01/data/`](../labs/lab01/data/): 1,174 patients with their
+encounters, conditions, observations and medications, in the Synthea export
+schema. There is no second copy. Clone the whole repository rather than a single
+folder.
 
 **Dependencies.** Each week lists its own, and they are deliberately minimal.
 Week 1 needs only pandas. Week 6 needs nothing at all beyond the standard
@@ -41,11 +42,8 @@ hitting them at once.
 **Never send real data anywhere.** Not to a public server, not to your own, not
 into a notebook. The synthetic cohort is the only thing that goes on the wire.
 
-## For lecturers and TAs
+## For the teaching team
 
-Each folder has a `README.md` with what to run and why. Week 1 additionally has
-`DEMO_SCRIPT.md`, a minute-by-minute script for the live segment, and a
-solutions notebook to run before the session. Weeks 2 to 4 keep the instructor
-answers beside the student files, named `solutions.sql` or marked as an
-instructor copy in the docstring. Week 6 has `INSTRUCTOR.md`, with the expected
-numbers from every task and what to say about each one.
+Demo scripts, worked solutions, expected outputs and the per-week teaching notes
+are not in this repository. They are in the teaching folder, which is kept
+separately and is not distributed to students.

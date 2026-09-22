@@ -33,7 +33,7 @@ the whole repository rather than just this directory.
 ## Setup
 
 ```bash
-cd lab02
+cd labs/lab02
 source ../lab01/.venv/bin/activate      # Windows: ..\lab01\.venv\Scripts\activate
 pip install -r requirements.txt
 jupyter notebook notebooks/lab02.ipynb
@@ -67,7 +67,7 @@ The lab is marked on your code, not on which server you reached.
 ## Ground rules for the public server
 
 1. **Never post anything real.** Not your own data, not a friend's, not an
-   extract from a placement. The synthetic dataset in `lab01/data` is the only
+   extract from a placement. The synthetic dataset in `labs/lab01/data` is the only
    thing you post.
 2. Everything you write is public and anyone can delete it.
 3. Put your student number in `SYSTEM` in `src/mapping.py`. Without a unique

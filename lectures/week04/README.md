@@ -72,15 +72,3 @@ from a placement.
 fetching the same image twice, once through `/rendered` and once natively, so the
 size difference makes the argument: `/rendered` is an 8-bit picture with someone
 else's window baked in. Fine for a thumbnail, never for analysis.
-
-## Teaching notes
-
-The DICOM JSON encoding surprises everyone: keys are eight-character hex tags,
-not names. `tag()` in `handson_b_dicomweb.py` is the small helper every parser
-needs. Have students look one tag up in PS3.6 live; it takes thirty seconds and
-turns the data dictionary from a document into a tool.
-
-Task 6 in the mini-lab is worth the time: send an object with STOW-RS, then send
-it again. The archive refuses to duplicate it, because a `SOPInstanceUID`
-identifies the object itself. That is Monday's UID rule, enforced by the server,
-and no slide makes the point as well.

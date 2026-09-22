@@ -18,14 +18,12 @@ week02/
 ├── sql/
 │   ├── schema.sql      six tables, portable Postgres/SQLite
 │   ├── seed.sql        Maria's encounter, as rows
-│   ├── queries.sql     the three clinical queries + mini-lab A stubs
-│   └── solutions.sql   instructor copy, with the answers and why they matter
+│   └── queries.sql     the three clinical queries + mini-lab A stubs
 └── hl7/
     ├── sample_oru.hl7               the message from the slide
     ├── sample_oru_corrected.hl7     the same result, corrected to 231
     ├── sample_oru_full_panel.hl7    five OBX segments, including a text result
-    ├── parse_hl7.py                 the parser from the slide, plus the MSH fix
-    └── load_to_db.py                instructor copy: pipes to rows, end to end
+    └── parse_hl7.py                 the parser from the slide, plus the MSH fix
 ```
 
 ## Running it
@@ -40,8 +38,8 @@ sqlite3 week02.db < queries.sql
 ```
 
 PostgreSQL works the same way with `psql -d hy489 -f schema.sql`. The schema is
-portable; only the turnaround-time query in `solutions.sql` differs, and both
-versions are given.
+portable; only the turnaround-time query differs between the two, and the
+query file says so where it matters.
 
 **Hands-on B**, Python, no dependencies:
 
@@ -51,15 +49,11 @@ python3 parse_hl7.py sample_oru.hl7
 python3 parse_hl7.py sample_oru_full_panel.hl7
 ```
 
-The full end-to-end answer to mini-lab B, which parses two messages and applies
-the correction as a supersede:
-
-```bash
-python3 load_to_db.py
-```
-
-It prints the current view (cholesterol 231) and the full history (215 still
-there, superseded). That output is the whole lesson of Week 2 in ten lines.
+Mini-lab B then asks you to write the loader yourself: parse two messages, insert
+the first result, and apply the second as a correction that supersedes it rather
+than overwriting it. When it works, the current view shows cholesterol 231 and
+the history still holds the 215 that was acted upon. That pair of numbers is the
+whole lesson of Week 2.
 
 ## What the code is for
 
@@ -80,16 +74,3 @@ each one is in the mini-lab for a reason:
   many in the run of empty fields. `visit_number()` tries the spec position and
   falls back to the last non-empty field. This is the optionality problem from
   Part 4, as four lines of code.
-
-## Teaching notes
-
-Mini-lab A tasks 3 and 4 are the pair that teaches the lesson. Inserting the
-correction is easy; realising that every subsequent query must now exclude the
-superseded row is the insight. Watch for students who forget the `NOT EXISTS`.
-
-Mini-lab B tasks 4 and 5 have no clean answer, deliberately. Task 4: `recorded_ts`
-is the moment your system received the message, not anything in it. MSH-7 is when
-the sender built it, which is not the same thing. Task 5 is the supersedes
-pattern arriving from the outside world, and `load_to_db.py` shows one defensible
-implementation, including what to do with a correction for a result you never
-received.

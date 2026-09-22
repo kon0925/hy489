@@ -44,7 +44,7 @@ import os
 from collections import OrderedDict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DATA = os.path.normpath(os.path.join(HERE, "..", "..", "..", "lab01", "data"))
+DATA = os.path.normpath(os.path.join(HERE, "..", "..", "..", "labs", "lab01", "data"))
 
 TODAY_START = "1970-01-01"
 TODAY_END = "2099-12-31"

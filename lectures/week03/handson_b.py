@@ -9,7 +9,7 @@ server, then create it with a conditional POST so the script is re-runnable.
 
 --dry-run builds and validates locally and touches no network. Use it first.
 
-GROUND RULES: never post anything real. The synthetic data in lab01/data is the
+GROUND RULES: never post anything real. The synthetic data in labs/lab01/data is the
 only thing you post. Everything you write to a public server is public, and
 anyone can delete it.
 """
@@ -31,8 +31,8 @@ JSON_CT = "application/fhir+json"
 GENDER = {"M": "male", "F": "female"}
 
 # The data lives one folder up in the repo. No copy is kept here.
-LOCAL = Path(__file__).resolve().parents[2] / "lab01" / "data"
-REMOTE = "https://raw.githubusercontent.com/kon0925/hy489/main/lab01/data/"
+LOCAL = Path(__file__).resolve().parents[2] / "labs" / "lab01" / "data"
+REMOTE = "https://raw.githubusercontent.com/kon0925/hy489/main/labs/lab01/data/"
 
 
 def load_patients(n: int) -> pd.DataFrame:

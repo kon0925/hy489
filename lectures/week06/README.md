@@ -8,7 +8,7 @@ download beyond this repository.
 
 ```bash
 cd lectures/week06
-python3 etl.py                    # builds cdm.db from ../../lab01/data
+python3 etl.py                    # builds cdm.db from ../../labs/lab01/data
 python3 run_queries.py            # the nine queries, no sqlite3 CLI needed
 python3 characterise.py           # a miniature Achilles
 python3 characterise.py --checks  # a miniature Data Quality Dashboard
@@ -27,7 +27,6 @@ does the same as `run_queries.py`.
 | `queries.sql` | Nine queries, the first three straight off the slides |
 | `run_queries.py` | Runs `queries.sql` without the sqlite3 CLI |
 | `characterise.py` | Characterisation, and quality checks with `--checks` |
-| `INSTRUCTOR.md` | Answers and timings. Read it after you have tried the tasks |
 
 ## Hands-on A: query a CDM you did not build
 
