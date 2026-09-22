@@ -1,0 +1,10 @@
+# Week 6 needs nothing beyond the Python standard library.
+#
+# sqlite3, csv, hashlib and argparse all ship with Python 3.8+. The command
+# below therefore installs nothing, and succeeds, which is the point: a
+# common data model is a schema and a vocabulary, not a product you buy.
+#
+#     pip install -r requirements.txt
+#
+# The real OHDSI stack is R, not Python: Achilles, DataQualityDashboard,
+# CohortDiagnostics and the HADES packages. See README.md.

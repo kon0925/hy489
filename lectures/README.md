@@ -13,7 +13,8 @@ None of it is graded. The graded work is in the `labNN/` folders.
 | 3 | Interoperability I: HL7 & FHIR | Read a live FHIR server, then write to it | [`week03/`](week03/) |
 | 4 | Interoperability II: imaging & DICOM | pydicom, then DICOMweb against your own archive | [`week04/`](week04/) |
 | 5 | Terminologies & ontologies | Look up codes properly, then measure your own data | [`week05/`](week05/) |
-| 6+ | | to follow | |
+| 6 | Common data models: OMOP & ETL | Build a miniature OMOP CDM, then characterise it | [`week06/`](week06/) |
+| 7+ | | to follow | |
 
 ## Common ground
 
@@ -23,7 +24,8 @@ in the Synthea export schema. There is no second copy. Clone the whole
 repository rather than a single folder.
 
 **Dependencies.** Each week lists its own, and they are deliberately minimal.
-Week 1 needs only pandas. Nothing in the lectures requires a database.
+Week 1 needs only pandas. Week 6 needs nothing at all beyond the standard
+library: it builds its database with the SQLite that ships with Python.
 
 **Servers.** Weeks 3 and 4 talk to a server. In both cases you can run your own
 in about a minute, and you should:
@@ -45,4 +47,5 @@ Each folder has a `README.md` with what to run and why. Week 1 additionally has
 `DEMO_SCRIPT.md`, a minute-by-minute script for the live segment, and a
 solutions notebook to run before the session. Weeks 2 to 4 keep the instructor
 answers beside the student files, named `solutions.sql` or marked as an
-instructor copy in the docstring.
+instructor copy in the docstring. Week 6 has `INSTRUCTOR.md`, with the expected
+numbers from every task and what to say about each one.
