@@ -1,0 +1,30 @@
+# HY-489 Week 4 · Hands-on B — your own DICOM archive, in about a minute.
+#
+#   docker compose up -d
+#   open http://localhost:8042        (user orthanc, password orthanc)
+#
+# DICOMweb base: http://localhost:8042/dicom-web
+# DIMSE:         AE title ORTHANC, port 4242
+#
+# Upload a study through the web interface, or drop files into the folder you
+# mount below. Then point handson_b_dicomweb.py at it.
+#
+# Use this rather than a public demo server. Public servers go down, get wiped,
+# and do not enjoy twenty students hitting them during a lecture.
+services:
+  orthanc:
+    image: jodogne/orthanc-plugins:latest
+    ports:
+      - "8042:8042"     # HTTP: web interface, REST API, DICOMweb
+      - "4242:4242"     # DIMSE: C-STORE, C-FIND, C-MOVE
+    environment:
+      ORTHANC__NAME: "HY-489"
+      ORTHANC__DICOM_WEB__ENABLE: "true"
+      ORTHANC__DICOM_WEB__ROOT: "/dicom-web/"
+      ORTHANC__REGISTERED_USERS: |
+        {"orthanc": "orthanc"}
+      ORTHANC__AUTHENTICATION_ENABLED: "true"
+    volumes:
+      - orthanc-db:/var/lib/orthanc/db
+volumes:
+  orthanc-db:

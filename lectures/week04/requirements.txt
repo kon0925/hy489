@@ -1,0 +1,7 @@
+pydicom>=3.0
+pylibjpeg>=2.0
+pylibjpeg-libjpeg>=2.1
+numpy>=1.24
+pandas>=2.0
+requests>=2.31
+matplotlib>=3.7

@@ -1,0 +1,12 @@
+{
+  "resourceType": "Patient",
+  "id": "a1b2-c3d4",
+  "gender": "female",
+  "birthDate": "1984-03-11",
+  "name": [
+    { "family": "Papadaki", "given": ["Maria"] }
+  ],
+  "address": [
+    { "city": "Heraklion", "country": "GR" }
+  ]
+}

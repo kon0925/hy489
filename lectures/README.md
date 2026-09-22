@@ -1,0 +1,47 @@
+# Lecture materials
+
+Code and data for the hands-on segments of the lectures. Every 4-hour lecture
+(Monday and Wednesday, 09:00–11:00) ends in a practical segment; this is what
+those segments run on.
+
+None of it is graded. The graded work is in the `labNN/` folders.
+
+| Week | Topic | Hands-on | Folder |
+|---|---|---|---|
+| 1 | The health-data landscape | Your first health dataset, in pandas | [`week01/`](week01/) |
+| 2 | Health information systems | The mini-EHR, and an HL7 v2 parser | [`week02/`](week02/) |
+| 3 | Interoperability I: HL7 & FHIR | Read a live FHIR server, then write to it | [`week03/`](week03/) |
+| 4 | Interoperability II: imaging & DICOM | pydicom, then DICOMweb against your own archive | [`week04/`](week04/) |
+| 5+ | | to follow | |
+
+## Common ground
+
+**The data.** Everything reads the synthetic cohort in [`../lab01/data/`](../lab01/data/):
+1,174 patients with their encounters, conditions, observations and medications,
+in the Synthea export schema. There is no second copy. Clone the whole
+repository rather than a single folder.
+
+**Dependencies.** Each week lists its own, and they are deliberately minimal.
+Week 1 needs only pandas. Nothing in the lectures requires a database.
+
+**Servers.** Weeks 3 and 4 talk to a server. In both cases you can run your own
+in about a minute, and you should:
+
+```bash
+docker run -p 8080:8080 hapiproject/hapi:latest          # FHIR, week 3
+docker compose -f week04/docker-compose.yml up -d        # DICOM, week 4
+```
+
+Public test servers go down, get wiped, and do not enjoy a lecture theatre
+hitting them at once.
+
+**Never send real data anywhere.** Not to a public server, not to your own, not
+into a notebook. The synthetic cohort is the only thing that goes on the wire.
+
+## For lecturers and TAs
+
+Each folder has a `README.md` with what to run and why. Week 1 additionally has
+`DEMO_SCRIPT.md`, a minute-by-minute script for the live segment, and a
+solutions notebook to run before the session. Weeks 2 to 4 keep the instructor
+answers beside the student files, named `solutions.sql` or marked as an
+instructor copy in the docstring.

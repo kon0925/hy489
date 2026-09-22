@@ -18,3 +18,8 @@ __pycache__/
 Thumbs.db
 .vscode/
 .idea/
+
+# lecture scratch
+week02.db
+*.tgz
+lectures_bundle.tgz
