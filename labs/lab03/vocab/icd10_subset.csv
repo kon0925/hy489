@@ -1,0 +1,26 @@
+code,title,block,chapter,residual
+I10,Essential (primary) hypertension,I10-I15 Hypertensive diseases,IX Diseases of the circulatory system,no
+I48,Atrial fibrillation and flutter,I30-I52 Other forms of heart disease,IX Diseases of the circulatory system,no
+E11,Type 2 diabetes mellitus,E10-E14 Diabetes mellitus,IV Endocrine and metabolic diseases,no
+E11.9,Type 2 diabetes mellitus without complications,E10-E14 Diabetes mellitus,IV Endocrine and metabolic diseases,yes
+E66.9,"Obesity, unspecified",E65-E68 Obesity and other hyperalimentation,IV Endocrine and metabolic diseases,yes
+E78.5,"Hyperlipidaemia, unspecified",E70-E90 Metabolic disorders,IV Endocrine and metabolic diseases,yes
+R73.0,Abnormal glucose tolerance test,R70-R79 Abnormal findings in blood,XVIII Symptoms and abnormal findings,no
+R73.9,"Hyperglycaemia, unspecified",R70-R79 Abnormal findings in blood,XVIII Symptoms and abnormal findings,yes
+D64.9,"Anaemia, unspecified",D60-D64 Aplastic and other anaemias,III Diseases of the blood,yes
+J45.9,"Asthma, unspecified",J40-J47 Chronic lower respiratory diseases,X Diseases of the respiratory system,yes
+J45.0,Predominantly allergic asthma,J40-J47 Chronic lower respiratory diseases,X Diseases of the respiratory system,no
+J46,Status asthmaticus,J40-J47 Chronic lower respiratory diseases,X Diseases of the respiratory system,no
+J01.9,"Acute sinusitis, unspecified",J00-J06 Acute upper respiratory infections,X Diseases of the respiratory system,yes
+J02.9,"Acute pharyngitis, unspecified",J00-J06 Acute upper respiratory infections,X Diseases of the respiratory system,yes
+J32.9,"Chronic sinusitis, unspecified",J30-J39 Other diseases of upper respiratory tract,X Diseases of the respiratory system,yes
+H66.9,"Otitis media, unspecified",H65-H75 Diseases of middle ear and mastoid,VIII Diseases of the ear,yes
+M17.0,"Primary gonarthrosis, bilateral",M15-M19 Arthrosis,XIII Diseases of the musculoskeletal system,no
+M17.1,Other primary gonarthrosis,M15-M19 Arthrosis,XIII Diseases of the musculoskeletal system,no
+M17.9,"Gonarthrosis, unspecified",M15-M19 Arthrosis,XIII Diseases of the musculoskeletal system,yes
+M54.5,Low back pain,M50-M54 Other dorsopathies,XIII Diseases of the musculoskeletal system,no
+G43.0,Migraine without aura,G40-G47 Episodic and paroxysmal disorders,VI Diseases of the nervous system,no
+K21.9,Gastro-oesophageal reflux disease without oesophagitis,K20-K31 Diseases of oesophagus and stomach,XI Diseases of the digestive system,no
+F32.0,Mild depressive episode,F30-F39 Mood disorders,V Mental and behavioural disorders,no
+Z34.9,"Supervision of normal pregnancy, unspecified",Z30-Z39 Encounters related to reproduction,XXI Factors influencing health status,yes
+Z71.3,Dietary counselling and surveillance,Z70-Z76 Persons encountering health services,XXI Factors influencing health status,no

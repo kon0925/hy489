@@ -7,7 +7,7 @@ are graded and together they are 25% of the final mark.
 |---|---|---|---|---|---|
 | 1 | Foundations: environment, a real dataset, SQL refresher | Fri 2 Oct | no | — | [`lab01/`](lab01/) |
 | 2 | FHIR in practice: read, map, validate, write | Fri 16 Oct | yes | Thu 22 Oct | [`lab02/`](lab02/) |
-| 3 | Terminologies and mapping | Fri 30 Oct | yes | | `lab03/` *(to follow)* |
+| 3 | Terminologies and mapping | Fri 30 Oct | yes | Thu 5 Nov | [`lab03/`](lab03/) |
 | 4 | Imaging and DICOM | Fri 13 Nov | yes | | `lab04/` *(to follow)* |
 | 5 | De-identification and privacy | Fri 27 Nov | yes | | `lab05/` *(to follow)* |
 | 6 | Analytics on a common data model | Fri 11 Dec | yes | | `lab06/` *(to follow)* |

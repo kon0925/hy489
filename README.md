@@ -40,7 +40,7 @@ whole repository rather than a single folder.
 |---|---|---|---|---|
 | 1 | Foundations: environment, a real dataset, SQL refresher | Fri 2 Oct | no | [`labs/lab01/`](labs/lab01/) |
 | 2 | FHIR in practice: read, map, validate, write | Fri 16 Oct | yes | [`labs/lab02/`](labs/lab02/) |
-| 3 | Terminologies and mapping | Fri 30 Oct | yes | `labs/lab03/` *(to follow)* |
+| 3 | Terminologies and mapping | Fri 30 Oct | yes | [`labs/lab03/`](labs/lab03/) |
 | 4 | Imaging and DICOM | Fri 13 Nov | yes | `labs/lab04/` *(to follow)* |
 | 5 | De-identification and privacy | Fri 27 Nov | yes | `labs/lab05/` *(to follow)* |
 | 6 | Analytics on a common data model | Fri 11 Dec | yes | `labs/lab06/` *(to follow)* |

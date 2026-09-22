@@ -1,0 +1,15 @@
+snomed_code,snomed_term,icd10_code,icd10_title,equivalence,note
+59621000,Essential hypertension,I10,Essential (primary) hypertension,equivalent,A clean one-to-one. There are not many.
+38341003,"Hypertensive disorder, systemic arterial",I10,Essential (primary) hypertension,narrower,"The SNOMED parent covers secondary hypertension too. I10 does not, so this map asserts something the source did not."
+44054006,Type 2 diabetes mellitus,E11.9,Type 2 diabetes mellitus without complications,narrower,"'Without complications' is an assertion the source never made. You are adding information, not losing it, which is the more dangerous direction."
+15777000,Prediabetes,R73.9,"Hyperglycaemia, unspecified",inexact,"WHO ICD-10 has no prediabetes. R73.0 is a test result, R73.9 is a finding, and neither says what the clinician meant."
+233678006,Childhood asthma,J45.9,"Asthma, unspecified",wider,'Childhood' is lost. J45.9 cannot carry it.
+271737000,Anaemia,D64.9,"Anaemia, unspecified",equivalent,Both are unspecified. Nothing is lost because nothing was there.
+239873007,Osteoarthritis of knee,M17.9,"Gonarthrosis, unspecified",equivalent,"M17.0 and M17.1 exist and carry laterality. The source has none, so the unspecified code is the honest target."
+40055000,Chronic sinusitis,J32.9,"Chronic sinusitis, unspecified",equivalent,
+444814009,Viral sinusitis,J01.9,"Acute sinusitis, unspecified",inexact,"'Viral' is lost and 'acute' is added. ICD-10 would want an additional B97 code for the organism, which most systems never record."
+196416002,Otitis media,H66.9,"Otitis media, unspecified",equivalent,
+195662009,Acute viral pharyngitis,J02.9,"Acute pharyngitis, unspecified",wider,'Viral' is lost. J02.8 exists for other specified organisms but is not right either.
+55822004,Hyperlipidaemia,E78.5,"Hyperlipidaemia, unspecified",equivalent,
+72892002,Normal pregnancy,Z34.9,"Supervision of normal pregnancy, unspecified",inexact,"A finding about the patient becomes a code about the encounter. Chapter XXI is not a disease chapter, which changes what any prevalence count means."
+162864005,Body mass index 30+ - obesity,E66.9,"Obesity, unspecified",equivalent,The BMI threshold is lost. E66.9 says obese and nothing more.

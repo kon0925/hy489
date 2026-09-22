@@ -1,0 +1,15 @@
+concept_id,fsn,preferred_term,synonyms,semantic_tag,parent_id,parent_term
+59621000,Essential hypertension (disorder),Essential hypertension,Primary hypertension|Idiopathic hypertension|HTN,disorder,38341003,Hypertensive disorder
+38341003,"Hypertensive disorder, systemic arterial (disorder)",Hypertensive disorder,High blood pressure|Hypertension,disorder,,
+44054006,Type 2 diabetes mellitus (disorder),Type 2 diabetes mellitus,Diabetes mellitus type 2|T2DM|NIDDM,disorder,73211009,Diabetes mellitus
+15777000,Prediabetes (finding),Prediabetes,Impaired glucose tolerance|Pre-diabetes,finding,,
+233678006,Childhood asthma (disorder),Childhood asthma,Paediatric asthma,disorder,195967001,Asthma
+271737000,Anemia (disorder),Anaemia,Anemia|Low haemoglobin,disorder,,
+239873007,Osteoarthritis of knee (disorder),Osteoarthritis of knee,Knee OA|Gonarthrosis,disorder,396275006,Osteoarthritis
+40055000,Chronic sinusitis (disorder),Chronic sinusitis,Chronic rhinosinusitis,disorder,36971009,Sinusitis
+444814009,Viral sinusitis (disorder),Viral sinusitis,Acute viral rhinosinusitis,disorder,36971009,Sinusitis
+196416002,Otitis media (disorder),Otitis media,Middle ear infection|OM,disorder,,
+195662009,Acute viral pharyngitis (disorder),Acute viral pharyngitis,Viral sore throat|Viral pharyngitis,disorder,405737000,Pharyngitis
+55822004,Hyperlipidemia (disorder),Hyperlipidaemia,Hyperlipidemia|Raised cholesterol|Dyslipidaemia,disorder,,
+72892002,Normal pregnancy (finding),Normal pregnancy,Uncomplicated pregnancy,finding,,
+162864005,Body mass index 30+ - obesity (finding),Body mass index 30+ - obesity,Obesity BMI over 30,finding,414916001,Obesity
