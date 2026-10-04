@@ -16,7 +16,9 @@ None of it is graded. The graded work is in [`../labs/`](../labs/).
 | 6 | Common data models: OMOP & ETL | Build a miniature OMOP CDM, then characterise it | [`week06/`](week06/) |
 | 7 | Data quality & record linkage | Profile two files, then link them and score the link | [`week07/`](week07/) |
 | 8 | Privacy, de-identification & the law | Re-identify your own cohort, then anonymise it and count the cost | [`week08/`](week08/) |
-| 9+ | | to follow | |
+| 9 | Secondary use: studies & models | Build a cohort three ways, run a study that lies, then four traps in one model | [`week09/`](week09/) |
+| 10 | Governance | Score access requests, break a suppressed table, and measure what an audit log costs | [`week10/`](week10/) |
+| 11+ | | to follow | |
 
 ## Common ground
 
