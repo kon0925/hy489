@@ -14,7 +14,8 @@ None of it is graded. The graded work is in [`../labs/`](../labs/).
 | 4 | Interoperability II: imaging & DICOM | pydicom, then DICOMweb against your own archive | [`week04/`](week04/) |
 | 5 | Terminologies & ontologies | Look up codes properly, then measure your own data | [`week05/`](week05/) |
 | 6 | Common data models: OMOP & ETL | Build a miniature OMOP CDM, then characterise it | [`week06/`](week06/) |
-| 7+ | | to follow | |
+| 7 | Data quality & record linkage | Profile two files, then link them and score the link | [`week07/`](week07/) |
+| 8+ | | to follow | |
 
 ## Common ground
 
