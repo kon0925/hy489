@@ -1,0 +1,4 @@
+Transfer notes, modality worklist migration.
+Batch 2026-03 and 2026-04 exported from the old archive.
+Outside referrals kept separate because the patient IDs do not
+match ours. Someone needs to reconcile them.
