@@ -18,7 +18,9 @@ None of it is graded. The graded work is in [`../labs/`](../labs/).
 | 8 | Privacy, de-identification & the law | Re-identify your own cohort, then anonymise it and count the cost | [`week08/`](week08/) |
 | 9 | Secondary use: studies & models | Build a cohort three ways, run a study that lies, then four traps in one model | [`week09/`](week09/) |
 | 10 | Governance | Score access requests, break a suppressed table, and measure what an audit log costs | [`week10/`](week10/) |
-| 11+ | | to follow | |
+| 11 | The European Health Data Space | Build an EEHRxF summary, run a data access body, compute a quality label | [`week11/`](week11/) |
+| 12 | Regulation of medical AI | Classify under Rule 11 and the AI Act, monitor a deployed model, generate Annex IV | [`week12/`](week12/) |
+| 13 | | projects | |
 
 ## Common ground
 
