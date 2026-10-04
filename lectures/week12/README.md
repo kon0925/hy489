@@ -57,7 +57,7 @@ fitted once on half the cohort and never refitted.
 
 An Annex IV technical documentation skeleton for the Week 9 model, with every
 element that can be measured filled in from a real run and every element that
-cannot marked, with a note saying who would have to write it.
+cannot marked as such, with a note saying who would have to write it.
 
 The subgroup table is the part worth reading: held-out AUC is 0.655 under 50,
 0.629 from 50 to 69, and 0.503 at 70 and over. The overall 0.605 conceals that

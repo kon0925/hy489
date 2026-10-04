@@ -200,3 +200,7 @@ for no reason.
 
 Keep `concept_map.csv`. Lab 6 builds a common data model over both hospitals,
 and this map is what lets the second one join it.
+
+Lab 4 on 13 November is imaging and DICOM. It is practice rather than graded,
+and it needs `matplotlib` on top of the environment you already have. Install
+it before the session, not during it.

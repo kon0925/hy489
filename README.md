@@ -17,13 +17,13 @@ distributed separately through the course page.
 
 ```
 hy489/
-├── labs/         the six graded lab sessions, one folder each
+├── labs/         the six lab sessions, one folder each. Three are graded
 │   └── lab01/
 │       └── data/     the synthetic cohort. One copy, used by everything
 └── lectures/     the hands-on segment of each lecture, one folder per week
 ```
 
-**[`labs/`](labs/)** is where the assessed work is. Each lab folder holds its
+**[`labs/`](labs/)** is where the lab work is, assessed and not. Each lab folder holds its
 handout, its notebook and its starter code, and is self-contained apart from the
 dataset.
 
@@ -41,9 +41,9 @@ whole repository rather than a single folder.
 | 1 | Foundations: environment, a real dataset, SQL refresher | Fri 2 Oct | no | [`labs/lab01/`](labs/lab01/) |
 | 2 | FHIR in practice: read, map, validate, write | Fri 16 Oct | yes | [`labs/lab02/`](labs/lab02/) |
 | 3 | Terminologies and mapping | Fri 30 Oct | yes | [`labs/lab03/`](labs/lab03/) |
-| 4 | Imaging and DICOM | Fri 13 Nov | yes | `labs/lab04/` *(to follow)* |
+| 4 | Imaging and DICOM | Fri 13 Nov | no | [`labs/lab04/`](labs/lab04/) |
 | 5 | De-identification and privacy | Fri 27 Nov | yes | `labs/lab05/` *(to follow)* |
-| 6 | Analytics on a common data model | Fri 11 Dec | yes | `labs/lab06/` *(to follow)* |
+| 6 | Analytics on a common data model | Fri 11 Dec | no | `labs/lab06/` *(to follow)* |
 
 ## Lectures
 

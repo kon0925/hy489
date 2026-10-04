@@ -1,16 +1,23 @@
 # Labs
 
-Six TA-led sessions, Fridays, alternating weeks, two hours each. Five of the six
-are graded and together they are 25% of the final mark.
+Six TA-led sessions, Fridays, alternating weeks, two hours each. **Three of the
+six are graded**, at roughly 8% each, and together they are 25% of the final
+mark. The other three are practice: they are submitted or not as the handout
+says, and they are not marked.
+
+Every lab feeds the next one, graded or not. Lab 2 produces the identifier map
+Lab 3 starts from, Lab 3 produces the concept map Lab 6 starts from, and Lab 4
+produces the imaging inventory Lab 5 starts from. Skipping a practice lab is
+not free.
 
 | | Lab | Date | Graded | Deadline | Folder |
 |---|---|---|---|---|---|
 | 1 | Foundations: environment, a real dataset, SQL refresher | Fri 2 Oct | no | — | [`lab01/`](lab01/) |
 | 2 | FHIR in practice: read, map, validate, write | Fri 16 Oct | yes | Thu 22 Oct | [`lab02/`](lab02/) |
 | 3 | Terminologies and mapping | Fri 30 Oct | yes | Thu 5 Nov | [`lab03/`](lab03/) |
-| 4 | Imaging and DICOM | Fri 13 Nov | yes | | `lab04/` *(to follow)* |
+| 4 | Imaging and DICOM | Fri 13 Nov | no | — | [`lab04/`](lab04/) |
 | 5 | De-identification and privacy | Fri 27 Nov | yes | | `lab05/` *(to follow)* |
-| 6 | Analytics on a common data model | Fri 11 Dec | yes | | `lab06/` *(to follow)* |
+| 6 | Analytics on a common data model | Fri 11 Dec | no | — | `lab06/` *(to follow)* |
 
 Each folder has a `HANDOUT.md`, which is the one to read first, and a `README.md`
 describing what is in the folder and how to set it up.
@@ -36,8 +43,12 @@ pip install -r requirements.txt
 ## Submitting
 
 Each graded lab says in its handout exactly what to submit and how to name it.
-`lab02/check_submission.py` is the pattern later labs follow: run it before you
-submit and it catches the things that cost marks for no reason.
+`lab02/check_submission.py` is the pattern the graded labs follow: run it before
+you submit and it catches the things that cost marks for no reason.
+
+The practice labs ship a self-check instead, `check_outputs.py`, which verifies
+that what you produced is what the next lab needs. Nothing is marked; the point
+is that you find out on the day rather than a fortnight later.
 
 ## Never send real data anywhere
 

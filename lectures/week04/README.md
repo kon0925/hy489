@@ -5,9 +5,11 @@
 * **Hands-on A (Monday)** — open a real DICOM study with pydicom.
 * **Hands-on B (Wednesday)** — query an archive over DICOMweb.
 
-Lab 4 on 13 November is the graded imaging lab and assumes Orthanc is running.
-Students who set it up in October have an easy lab; the rest spend the first
-twenty minutes on Docker.
+Lab 4 on 13 November is the imaging lab. It is practice, not graded, and it
+runs entirely offline against a DICOM archive that ships with it, so nothing in
+it needs Orthanc. Hands-on B below still does: keep the compose file for
+anybody who wants to push the Lab 4 archive into a real PACS and query it over
+DICOMweb, which is the obvious extension and is not part of the session.
 
 ## Contents
 
