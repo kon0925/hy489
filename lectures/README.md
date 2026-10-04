@@ -15,7 +15,8 @@ None of it is graded. The graded work is in [`../labs/`](../labs/).
 | 5 | Terminologies & ontologies | Look up codes properly, then measure your own data | [`week05/`](week05/) |
 | 6 | Common data models: OMOP & ETL | Build a miniature OMOP CDM, then characterise it | [`week06/`](week06/) |
 | 7 | Data quality & record linkage | Profile two files, then link them and score the link | [`week07/`](week07/) |
-| 8+ | | to follow | |
+| 8 | Privacy, de-identification & the law | Re-identify your own cohort, then anonymise it and count the cost | [`week08/`](week08/) |
+| 9+ | | to follow | |
 
 ## Common ground
 
