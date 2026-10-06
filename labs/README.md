@@ -16,7 +16,7 @@ not free.
 | 2 | FHIR in practice: read, map, validate, write | Fri 16 Oct | yes | Thu 22 Oct | [`lab02/`](lab02/) |
 | 3 | Terminologies and mapping | Fri 30 Oct | yes | Thu 5 Nov | [`lab03/`](lab03/) |
 | 4 | Imaging and DICOM | Fri 13 Nov | no | — | [`lab04/`](lab04/) |
-| 5 | De-identification and privacy | Fri 27 Nov | yes | | `lab05/` *(to follow)* |
+| 5 | De-identification and privacy | Fri 27 Nov | yes | Thu 3 Dec | [`lab05/`](lab05/) |
 | 6 | Analytics on a common data model | Fri 11 Dec | no | — | `lab06/` *(to follow)* |
 
 Each folder has a `HANDOUT.md`, which is the one to read first, and a `README.md`

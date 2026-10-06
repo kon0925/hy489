@@ -42,7 +42,7 @@ whole repository rather than a single folder.
 | 2 | FHIR in practice: read, map, validate, write | Fri 16 Oct | yes | [`labs/lab02/`](labs/lab02/) |
 | 3 | Terminologies and mapping | Fri 30 Oct | yes | [`labs/lab03/`](labs/lab03/) |
 | 4 | Imaging and DICOM | Fri 13 Nov | no | [`labs/lab04/`](labs/lab04/) |
-| 5 | De-identification and privacy | Fri 27 Nov | yes | `labs/lab05/` *(to follow)* |
+| 5 | De-identification and privacy | Fri 27 Nov | yes | [`labs/lab05/`](labs/lab05/) |
 | 6 | Analytics on a common data model | Fri 11 Dec | no | `labs/lab06/` *(to follow)* |
 
 ## Lectures
