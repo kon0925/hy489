@@ -28,7 +28,7 @@ def normalise_name(value):
 
     Upper case, accents stripped, everything that is not a letter removed. It
     is blunt on purpose: anything cleverer is a decision you should be making
-    explicitly rather than hiding in a helper.
+    explicitly instead of hiding it in a helper.
     """
     if value is None:
         return ""

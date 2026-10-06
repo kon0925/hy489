@@ -3,7 +3,7 @@
     python3 check_outputs.py
 
 It is not a mark. Lab 4 is not graded. It is here so that you find out today
-that your inventory is short of four instances, rather than on 27 November when
+that your inventory is short of four instances, and not on 27 November when
 Lab 5 de-identifies it.
 
 What it checks:

@@ -13,7 +13,7 @@ and reconciliation is only interesting when it almost works.
 Determinism
 -----------
 Seeded with 489, the same seed as the Lab 1 and Lab 3 generators. Every student
-gets byte-identical files. UIDs are derived from a hash of a label rather than
+gets byte-identical files. UIDs are derived from a hash of a label and not
 drawn at random, so a rerun produces the same UIDs as well.
 
 UIDs sit under the 2.25 arc. That arc is the UUID branch of the OID tree: any
@@ -58,7 +58,7 @@ each one is a line you will write in the Part A report.
 12. HEADER DISAGREEMENTS WITH THE CSV. For one patient the DICOM sex
     contradicts the cohort, and for another the surname is spelled
     differently. Both are real, both are common, and they are the reason
-    Part C asks for a decision rather than a number.
+    Part C asks for a decision and not a number.
 13. HEADER DISAGREEMENT WITH ITSELF. One PatientID carries two spellings of
     the name across two studies, one of them with a middle initial. The
     archive is inconsistent about a patient before anybody compares it to
@@ -202,7 +202,7 @@ def sc_with_name(text, size=256):
     """A secondary capture with the patient's name drawn into the pixels.
 
     Five-by-seven block glyphs, enough that the name is readable on screen and
-    unmistakably part of the image rather than part of the header.
+    unmistakably part of the image and not part of the header.
     """
     FONT = {
         "A": ["01110", "10001", "10001", "11111", "10001", "10001", "10001"],

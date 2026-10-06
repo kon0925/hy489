@@ -8,8 +8,8 @@ you have been reading since Week 1. The person who did the migration left.
 
 Two hours. By the end you will know all three of those things, you will have a
 written list of what is wrong with the archive, and you will have measured
-something off an image in millimetres and Hounsfield units rather than in
-pixels and stored values.
+something off an image in millimetres and Hounsfield units, not in pixels and
+stored values.
 
 **Lab 5 on 27 November starts from what you produce today, and Lab 5 is
 graded.** Today is where the archive gets read; Lab 5 is where it gets
@@ -121,8 +121,8 @@ Use `dicomio.tag(ds, "SomeTag")` for every read. Not `ds.SomeTag`: at least one
 file in this archive is missing almost every tag you are about to ask for, and
 the first `AttributeError` costs ten minutes.
 
-Three of the fields need a decision rather than a lookup, and the docstring
-says which.
+Three of the fields need a decision, not a lookup, and the docstring says
+which.
 
 ### Task 3 — `build`, in `src/inventory.py`
 
@@ -173,7 +173,7 @@ that study describes two bodies.
 
 **Does every patient agree with themselves?** One `patient_id` with two
 `patient_name` values, or two birth dates, or two sexes. This one is a note
-rather than a blocker, and Part C is where you decide what it means.
+and not a blocker, and Part C is where you decide what it means.
 
 ### Task 6 — the rest of the findings
 
@@ -360,7 +360,7 @@ python3 check_outputs.py
 
 It checks that the inventory has the shape it should and that your three
 headline numbers agree with the archive. It is not a mark. It is there so that
-you find out today rather than on 27 November.
+you find out today, not on 27 November.
 
 ### Not graded, and still the one to finish
 

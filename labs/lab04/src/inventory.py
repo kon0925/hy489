@@ -40,7 +40,7 @@ def index_instance(ds, path, root):
     the tags you want are absent from at least one file in this archive, and
     the first AttributeError will cost you ten minutes.
 
-    Three that need a decision rather than a lookup:
+    Three that need a decision, not a lookup:
 
       pixel_spacing_row, pixel_spacing_col
           PixelSpacing has VM 2 and comes back as a tuple (row, column), in

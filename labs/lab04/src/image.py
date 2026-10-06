@@ -28,7 +28,7 @@ def to_real_values(ds):
     Both tags are optional. The standard says an absent slope is 1 and an
     absent intercept is 0, so the arithmetic always works and is sometimes
     silently wrong. That is exactly what one series in this archive does, and
-    Part B asks you to find it by measuring air rather than by reading tags.
+    Part B asks you to find it by measuring air, with no tag read at all.
 
     Do not clip, do not rescale to 0-255, do not touch the photometric
     interpretation. This function returns physics, not a picture.
@@ -111,7 +111,7 @@ def mm_per_pixel(ds, tag):
 def distance_mm(ds, p0, p1, tag):
     """Distance between two (row, column) points, in millimetres, or None.
 
-    Returns None rather than guessing 1.0 mm. A measurement that quietly
+    Returns None instead of guessing 1.0 mm. A measurement that quietly
     assumes square millimetre pixels is worse than no measurement, because it
     arrives in a report looking like a number somebody checked.
     """
