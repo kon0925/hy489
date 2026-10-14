@@ -1,7 +1,8 @@
 # Lab 3 — Terminologies and mapping
 
-**Friday 30 October 2026 · 2 hours · graded, 8% of the final mark**
-**Deadline: Thursday 5 November, 23:59**
+**Friday 30 October 2026 · 2 hours · Assignment 2**
+**Individual. Delivered / not delivered. 3% of the final mark.**
+**Deadline: Friday 6 November, 23:59**
 
 A second hospital sends you its problem list. Harmonise it onto ICD-10, then
 report honestly what the harmonisation destroyed.
@@ -24,7 +25,7 @@ labs/lab03/
 │   └── official_map.csv    SNOMED to ICD-10, with what each one costs
 ├── src/
 │   ├── vocab.py            written for you: loading and lookup
-│   ├── mapping.py          THE GRADED PART: four stubs to fill in
+│   ├── mapping.py          THE PART YOU DELIVER: four stubs to fill in
 │   └── metrics.py          written for you: coverage, collapse, residual, loss
 ├── notebooks/
 │   └── lab03.ipynb         the starter notebook you fill in
@@ -78,12 +79,12 @@ version with laterality in it, you have found the CM.
 **The official map covers 14 concepts and your extract has more.** Everything
 it does not cover is a decision you make and write down. That is the lab.
 
-## The rule that decides most of the marks
+## The rule the whole assignment turns on
 
 A mapping is not a lookup table. Every row of your `concept_map.csv` is a
 claim about what somebody meant, and the ones you cannot defend in a sentence
-are the ones that are wrong. Thirty of the hundred marks are for the reasons
-and the unmapped tail, not for the matches.
+are the ones that are wrong. Two of the five things you deliver are the reasons
+and the unmapped tail, not the matches.
 
 Report coverage and collapse together, always. A map that reaches 100% by
 putting everything on 'unspecified' has lost the data and passed the test.

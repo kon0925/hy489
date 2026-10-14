@@ -1,6 +1,6 @@
 # Lab 4 — Imaging and DICOM
 
-**Friday 13 November 2026 · 2 hours · practice, not graded**
+**Friday 13 November 2026 · 2 hours · no assignment**
 
 Read [`HANDOUT.md`](HANDOUT.md) first. This file is the folder and the caveats.
 
@@ -75,5 +75,6 @@ is there to show you that.
 
 ## What happens next
 
-Lab 5 on 27 November is graded and de-identifies this archive. It starts from
-the `inventory.csv` you produce today.
+Lab 5 on 27 November is **Assignment 3** and it de-identifies this archive. It
+starts from the `inventory.csv` you produce today, so nothing today is optional
+even though nothing today is collected.

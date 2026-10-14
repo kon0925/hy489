@@ -17,7 +17,7 @@ distributed separately through the course page.
 
 ```
 hy489/
-├── labs/         the six lab sessions, one folder each. Three are graded
+├── labs/         the six lab sessions, one folder each. Three carry an assignment
 │   └── lab01/
 │       └── data/     the synthetic cohort. One copy, used by everything
 └── lectures/     the hands-on segment of each lecture, one folder per week
@@ -25,7 +25,8 @@ hy489/
 
 **[`labs/`](labs/)** is where the lab work is, assessed and not. Each lab folder holds its
 handout, its notebook and its starter code, and is self-contained apart from the
-dataset.
+dataset. Three of the six carry an assignment; see [`labs/README.md`](labs/README.md)
+for the schedule and the deadlines.
 
 **[`lectures/`](lectures/)** is what the live segments run on. None of it is
 graded and nothing there is submitted.
@@ -34,16 +35,31 @@ The dataset lives in [`labs/lab01/data/`](labs/lab01/data/) and there is exactly
 one copy. Every lab and every lecture script reads it from there, so clone the
 whole repository rather than a single folder.
 
+## Assessment
+
+| Component | Weight |
+|---|---|
+| Team project, in groups of three | 40% |
+| Lab assignments (3), individual, delivered / not delivered | 10% |
+| Final written exam | 40% |
+| Paper presentation, to the TAs in the lab slot | 10% |
+
+The three lab assignments are not marked out of 100. Each is either delivered or
+it is not, and the handout for that lab lists exactly what has to be there.
+
 ## Labs
 
-| | Lab | Date | Graded | Folder |
-|---|---|---|---|---|
-| 1 | Foundations: environment, a real dataset, SQL refresher | Fri 2 Oct | no | [`labs/lab01/`](labs/lab01/) |
-| 2 | FHIR in practice: read, map, validate, write | Fri 16 Oct | yes | [`labs/lab02/`](labs/lab02/) |
-| 3 | Terminologies and mapping | Fri 30 Oct | yes | [`labs/lab03/`](labs/lab03/) |
-| 4 | Imaging and DICOM | Fri 13 Nov | no | [`labs/lab04/`](labs/lab04/) |
-| 5 | De-identification and privacy | Fri 27 Nov | yes | [`labs/lab05/`](labs/lab05/) |
-| 6 | Analytics on a common data model | Fri 11 Dec | no | `labs/lab06/` *(to follow)* |
+| | Lab | Date | Assignment | Deadline | Folder |
+|---|---|---|---|---|---|
+| 1 | Foundations: environment, a real dataset, SQL refresher | Fri 2 Oct | — | — | [`labs/lab01/`](labs/lab01/) |
+| 2 | FHIR in practice: read, map, validate, write | Fri 16 Oct | **1** · 3% | Fri 23 Oct | [`labs/lab02/`](labs/lab02/) |
+| 3 | Terminologies and mapping | Fri 30 Oct | **2** · 3% | Fri 6 Nov | [`labs/lab03/`](labs/lab03/) |
+| 4 | Imaging and DICOM | Fri 13 Nov | — | — | [`labs/lab04/`](labs/lab04/) |
+| 5 | De-identification and privacy | Fri 27 Nov | **3** · 4% | Fri 4 Dec | [`labs/lab05/`](labs/lab05/) |
+| 6 | Analytics on a common data model | Fri 11 Dec | — | — | `labs/lab06/` *(to follow)* |
+
+Paper presentations run in the same slot on the Fridays between the labs, in
+room A113: 6 November, 20 November, 4 December and 18 December.
 
 ## Lectures
 

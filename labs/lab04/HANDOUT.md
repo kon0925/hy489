@@ -1,6 +1,6 @@
 # Lab 4 — Imaging and DICOM
 
-**Friday 13 November 2026 · 09:00–11:00 · practice, not graded**
+**Friday 13 November 2026 · 09:00–11:00 · no assignment, nothing collected**
 
 You have been handed an imaging archive. Nobody can tell you how many patients
 are in it, how many studies, or whether any of it can be joined to the cohort
@@ -12,7 +12,7 @@ something off an image in millimetres and Hounsfield units, not in pixels and
 stored values.
 
 **Lab 5 on 27 November starts from what you produce today, and Lab 5 is
-graded.** Today is where the archive gets read; Lab 5 is where it gets
+Assignment 3.** Today is where the archive gets read; Lab 5 is where it gets
 de-identified. An inventory you cannot trust on 13 November is an inventory you
 are de-identifying blind on 27 November.
 
@@ -362,11 +362,11 @@ It checks that the inventory has the shape it should and that your three
 headline numbers agree with the archive. It is not a mark. It is there so that
 you find out today, not on 27 November.
 
-### Not graded, and still the one to finish
+### No assignment, and still the one to finish
 
-Lab 4 is practice. Labs 2, 3 and 5 carry the marks.
+Lab 4 carries no assignment. Labs 2, 3 and 5 carry the three.
 
-Lab 5 on 27 November is graded and it de-identifies this archive. Everything
+Lab 5 on 27 November is Assignment 3 and it de-identifies this archive. Everything
 you found today is something you have to handle there: the study with two
 patients in it, the instance whose pixels are gone, the image with a name drawn
 into it, and the patient the matcher could not resolve. De-identification is

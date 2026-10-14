@@ -1,10 +1,16 @@
 # Lab 3 — Terminologies and mapping
 
-**Friday 30 October 2026 · 2 hours · graded, 8% of the final mark**
-**Deadline: Thursday 5 November, 23:59**
+**Friday 30 October 2026 · 2 hours · Assignment 2 of 3**
+**Individual work. Delivered / not delivered. 3% of your final mark.**
+**Deadline: Friday 6 November, 23:59**
 
-The written version of the slides. Read this if you get lost, and read the
-rubric at the end before you start, not after.
+The written version of the slides. Read this if you get lost, and read what
+counts as delivered, at the end, before you start.
+
+**Today** is two hours with the TAs in the room, three checkpoints, and nothing
+collected at the end. **Afterwards** you have one week to deliver four things.
+There is no mark out of 100: the assignment is delivered or it is not, and the
+list at the end is the bar.
 
 ---
 
@@ -116,7 +122,7 @@ and record.
 
 ## Part C · Measure what it cost
 
-**1:15 – 1:45.** The part the marks are really in.
+**1:15 – 1:45.** The part the assignment is really about.
 
 `src/metrics.py` computes the four numbers the same way for everybody, so they
 are comparable across the room. Reading them is your job.
@@ -158,25 +164,30 @@ your map can carry.
 One zip, named `hy489-lab03-<surname1>-<surname2>.zip`, containing:
 
 1. `notebooks/lab03.ipynb` — all three checkpoints answered, run top to bottom,
-   outputs visible, both names in the first cell
+   outputs visible, your name in the first cell
 2. `concept_map.csv` — your map
 3. `UNMAPPED.md` — the loss report
 4. the 200 words, in the last markdown cell of the notebook
 
-Run `python check_submission.py` first. It catches the things that cost marks
-for no reason.
+Run `python check_submission.py` first. Every failure it prints is a reason the
+work would come back to you.
 
-## Marking
+## What counts as delivered
 
-| | Marks | |
-|---|---|---|
-| Checkpoint 1 | 20 | The five answers, including the homoglyph and the two wrong preset codes |
-| The map | 25 | `concept_map.csv` complete, valid equivalences, runs from your own code |
-| Reasons | 20 | Every mapped row defensible in a sentence. Generic reasons score nothing |
-| The loss report | 20 | `UNMAPPED.md` grouped by reason, with a cost for each group |
-| The 200 words | 15 | Uses your own numbers, states the limits, commits to an answer |
+There is no score. The TA checks that each of these is present and is real work:
 
-**How to lose marks for no reason**
+| | What has to be there |
+|---|---|
+| Checkpoint 1 | The five answers, including the homoglyph and the two wrong preset codes |
+| The map | `concept_map.csv` complete, valid equivalences, produced by your own code |
+| Reasons | Every mapped row defensible in a sentence. A generic reason is not a reason |
+| The loss report | `UNMAPPED.md` grouped by reason, with a cost for each group |
+| The 200 words | Uses your own numbers, states the limits, commits to an answer |
+
+If something is missing and there is still time before the deadline, the TA will
+ask you to resubmit. After the deadline it is recorded as not delivered.
+
+**How a delivery fails for no reason**
 
 - A reason column full of "matched by name". That is not a reason.
 - Coverage reported without collapse. It is the one thing this lab is trying to

@@ -1,11 +1,23 @@
 # HY-489 · Lab 2 — FHIR in practice
 
-**Friday 16 October 2026 · 09:00–11:00 · graded, 8% of your final mark**
-**Deadline: Thursday 22 October, 23:59**
+**Friday 16 October 2026 · 09:00–11:00 · Assignment 1 of 3**
+**Individual work. Delivered / not delivered. 3% of your final mark.**
+**Deadline: Friday 23 October, 23:59**
 
-Lab 1 was diagnostic. This one counts. The marking rewards a pipeline that runs
-end to end and an honest account of what it could not do, over a clever one that
-half works. Work in pairs if you like; both names in the first cell.
+Lab 1 was diagnostic. This one counts.
+
+**Today** is two hours with the TAs in the room: three checkpoints, and nothing
+collected at the end of it. The session is for getting far enough that the
+delivery is a tidy-up and not a rebuild.
+
+**Afterwards** you have one week. You deliver four files, listed under Wrap
+below. There is no mark out of 100: the assignment is delivered or it is not,
+and the list is the bar. A missing file, a notebook that was never run from the
+top, or a `NOTES.md` of two lines is not a delivery, and the TA will tell you so
+rather than deducting something.
+
+What that rewards is a pipeline that runs end to end with an honest account of
+what it could not do, over a clever one that half works.
 
 Ask a TA after five minutes of being stuck, not after twenty-five.
 
@@ -294,7 +306,7 @@ Always read the body. `r.status_code` tells you something failed;
 ### Submit four things
 
 1. `notebooks/lab02.ipynb` — all three checkpoints answered, executed, outputs
-   visible, both names in the first cell
+   visible, your name in the first cell
 2. `src/mapping.py` — your four functions, importable
 3. `rejections.csv` — every row that failed, with its source key and the error.
    An empty file with a header is a valid answer if nothing failed
@@ -303,28 +315,33 @@ Always read the body. `r.status_code` tells you something failed;
 
 Then run `python check_submission.py`.
 
-**Deadline: Thursday 22 October, 23:59.**
+**Deadline: Friday 23 October, 23:59.** One week from the session.
 
-### Marking, out of 100
+### What counts as delivered
 
-| Criterion | Marks | What earns them |
-|---|---|---|
-| Reading (Checkpoint 1) | 20 | correct counts, paging handled, includes filtered out |
-| Mapping (Checkpoint 2) | 30 | four working functions, correct datatypes, sensible value[x] |
-| Error handling | 15 | a real rejection table; nothing dropped silently |
-| Writing (Checkpoint 3) | 20 | valid transaction Bundle, conditional create, verified by search |
-| Notes and honesty | 15 | a clear account of what works, what does not, and why |
+There is no score. The TA checks that each of these is present and is real work:
 
-Thirty of the hundred marks are not about FHIR. That ratio is deliberate.
+| Part | What has to be there |
+|---|---|
+| Reading (Checkpoint 1) | correct counts, paging handled, includes filtered out |
+| Mapping (Checkpoint 2) | four working functions, correct datatypes, sensible value[x] |
+| Error handling | a real rejection table; nothing dropped silently |
+| Writing (Checkpoint 3) | valid transaction Bundle, conditional create, verified by search |
+| Notes and honesty | a clear account of what works, what does not, and why |
 
-### How to lose marks without noticing
+Two of those five are not about FHIR. That ratio is the point of the lab.
+
+If something is missing and there is still time before the deadline, the TA will
+ask you to resubmit. After the deadline it is recorded as not delivered.
+
+### How a delivery fails for no reason
 
 * a notebook that does not survive restart-and-run-all
 * reporting `len(entry)` as if it were `total`
 * `try/except pass` instead of a rejection table
 * inventing a UCUM code — worse than no unit at all
 * leaving `SYSTEM` as the default, so we cannot find your resources
-* one name on a pair submission
+* no name in the first cell
 
 ### If you finish early
 

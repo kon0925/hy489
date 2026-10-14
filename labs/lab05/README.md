@@ -1,7 +1,8 @@
 # Lab 5 — De-identification and privacy
 
-**Friday 27 November 2026 · 2 hours · GRADED, 8% of the final mark**
-**Deadline Thursday 3 December 2026, 23:59**
+**Friday 27 November 2026 · 2 hours · Assignment 3**
+**Individual. Delivered / not delivered. 4% of the final mark.**
+**Deadline Friday 4 December 2026, 23:59**
 
 Read [`HANDOUT.md`](HANDOUT.md) first. This file is the folder and the caveats.
 

@@ -1,7 +1,8 @@
 # Lab 5 — De-identification and privacy
 
-**Friday 27 November 2026 · 09:00–11:00 · GRADED, 8% of the final mark**
-**Deadline Thursday 3 December 2026, 23:59**
+**Friday 27 November 2026 · 09:00–11:00 · Assignment 3 of 3**
+**Individual work. Delivered / not delivered. 4% of your final mark.**
+**Deadline Friday 4 December 2026, 23:59**
 
 On 13 November you read an imaging archive and wrote down what was wrong with
 it. Today you take the same archive, remove the identifiers, and then attack
@@ -17,10 +18,16 @@ defect any more. Each one is a decision somebody has to make and sign.
 | a name drawn into the pixels | header editing does not reach it |
 | a patient with no cohort identifier | there is no cohort scheme to take a pseudonym from. Mint one, or leave the patient out |
 
-**55 of the 100 marks are for what you write down**, in
-`notebooks/deident_report.md`. Same weighting as Lab 2 and Lab 3 and the same
-reason: the code either runs or it does not, and the part of this work that
-somebody has to be able to defend two years later is the part in sentences.
+**Most of what you deliver is writing**, in `notebooks/deident_report.md`.
+Two of its five sections contain no code at all. The reason is the same one Lab 2
+and Lab 3 were built on: the code either runs or it does not, and the part of
+this work somebody has to be able to defend two years later is the part in
+sentences.
+
+**Today** is two hours with the TAs in the room, and nothing is collected at the
+end of it. **Afterwards** you have one week. There is no mark out of 100: the
+assignment is delivered or it is not, and the list at the end is the bar. A
+report section of two sentences is not a delivery.
 
 ---
 
@@ -396,28 +403,34 @@ Exactly these five headings, in this order:
 `check_submission.py` checks that all five are there and that none of them is
 two lines long. It does not check whether what is under them is any good.
 
-### The rubric
+### What counts as delivered
 
-| # | Section | Marks | Of which code | Of which written |
-|---|---|---|---|---|
-| 1 | **The profile.** `apply_profile` does what the table says, the release is readable, and section 1 defends two of the combination-code resolutions and names two attributes the profile does not cover | 20 | 10 | 10 |
-| 2 | **Identifiers and UIDs.** A keyed pseudonym, a consistent and injective UID map, the key written somewhere the release is not, and section 2 saying what the scheme buys and does not | 20 | 15 | 5 |
-| 3 | **The four decisions.** The merged study, the truncated instance, the burned-in name, the patients with no cohort identifier. Each one gets the decision, the reason, and what the other choice would have cost | 25 | 0 | 25 |
-| 4 | **What the profile did not reach.** The pixels blanked and visible, the dates shifted with the intervals intact, the report handled one way or the other, and section 4 on what is still in the release | 20 | 15 | 5 |
-| 5 | **The audit, read back.** `audit.json` produced, and section 5 reading the results back as evidence of something limited, including the 7 of 10 that no option removes | 15 | 5 | 10 |
-| | | **100** | **45** | **55** |
+There is no score. The TA checks that each of the five is present and is real
+work. The last column says where the substance of that section sits.
 
-### How to lose marks for no reason
+| # | Section | Code or writing |
+|---|---|---|
+| 1 | **The profile.** `apply_profile` does what the table says, the release is readable, and section 1 defends two of the combination-code resolutions and names two attributes the profile does not cover | both |
+| 2 | **Identifiers and UIDs.** A keyed pseudonym, a consistent and injective UID map, the key written somewhere the release is not, and section 2 saying what the scheme buys and does not | mostly code |
+| 3 | **The four decisions.** The merged study, the truncated instance, the burned-in name, the patients with no cohort identifier. Each one gets the decision, the reason, and what the other choice would have cost | writing only |
+| 4 | **What the profile did not reach.** The pixels blanked and visible, the dates shifted with the intervals intact, the report handled one way or the other, and section 4 on what is still in the release | mostly code |
+| 5 | **The audit, read back.** `audit.json` produced, and section 5 reading the results back as evidence of something limited, including the 7 of 10 that no option removes | both |
+
+If something is missing and there is still time before the deadline, the TA will
+ask you to resubmit. After the deadline it is recorded as not delivered.
+
+### How a delivery fails for no reason
 
 - **Submitting without running `check_submission.py`.** Every failure it prints
-  is a mark you did not have to lose.
+  is a reason the work would come back to you.
 - **A notebook that was not restarted and run from the top.** Execution counts
   that go 1, 4, 2, 9 mean nobody can reproduce what you got, including you.
 - **Shipping `naive_pseudonym`.** It is written in the file you are editing and
   the lab breaks it in front of you.
 - **The key inside `out/`.** A key that travels with the data is decoration.
   `check_submission.py` fails on this one.
-- **A section of the report that is two sentences.** 55 marks are there.
+- **A section of the report that is two sentences.** Most of this assignment is
+  the report, and a section that short is not delivered.
 - **"No issues found."** An audit that reports nothing has described the
   auditor. Say what each check covered and what it could not cover.
 - **Reporting the rate.** "No identifiers leaked" is not the finding. Which

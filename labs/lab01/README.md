@@ -1,6 +1,6 @@
 # Lab 1 — Foundations
 
-**Friday 2 October 2026 · 2 hours · ungraded (but submitted)**
+**Friday 2 October 2026 · 2 hours · no assignment (submitted anyway)**
 
 Environment set up, a real-shaped health dataset loaded, and enough SQL to ask
 clinical questions of it. Everything in Labs 2–6 assumes this one works.
@@ -54,7 +54,9 @@ engine = create_engine("sqlite:///../lab01.db")
 ## Submission
 
 The notebook, `sql/queries.sql`, and a five-line README of your own.
-**Deadline: Thursday 8 October, 23:59.** Ungraded — submit it anyway.
+**Deadline: Thursday 8 October, 23:59.** Lab 1 carries no assignment and no
+marks. Submit it anyway: it is how the TAs find out your environment is broken
+before Assignment 1 depends on it.
 
 ## About the data
 

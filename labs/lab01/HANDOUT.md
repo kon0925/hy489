@@ -6,7 +6,9 @@ By the end of this session you will have a working environment, a real-shaped
 health dataset in a database, and the ability to ask clinical questions of it in
 SQL. Labs 2–6 all build on top of this.
 
-Work in pairs if you like. Ask a TA the moment something does not work — the
+Work in pairs today if you like: Lab 1 carries no assignment. The three labs
+that do, Labs 2, 3 and 5, are individual. Ask a TA the moment something does not
+work — the
 point of the session is that you leave with it working, not that you struggle
 quietly.
 
@@ -183,11 +185,15 @@ Three queries are written for you in `sql/queries.sql`. Use them as models.
 * a five-line README — which database you used, what broke, and your answer to
   "what looks too clean"
 
-**Deadline: Thursday 8 October, 23:59.** Lab 1 is ungraded. Submit it anyway: if
-something is broken we would much rather find out now than on the morning of
-Lab 2.
+**Deadline: Thursday 8 October, 23:59.** Lab 1 carries no assignment and no
+marks. Submit it anyway: if something is broken we would much rather find out
+now than on the morning of Lab 2.
 
-### Before Lab 2 — Friday 16 October, graded
+Three of the six labs carry an assignment: Lab 2, Lab 3 and Lab 5. Each is
+individual, marked delivered or not delivered, and worth 3%, 3% and 4% of the
+final mark. You get one week after the session to deliver.
+
+### Before Lab 2 — Friday 16 October, Assignment 1
 
 * keep this virtualenv and this database; Lab 2 maps them to FHIR
 * `pip install requests fhir.resources`
