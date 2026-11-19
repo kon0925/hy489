@@ -1,7 +1,7 @@
 # PLAN · Track 3 · An observational study
 
-**Group:** Giannis (WP1), Myron (WP2), Michalis (WP3)  
-**Status:** DRAFT. To be agreed by all three and committed with `protocol.md` before Fri 20 Nov, 23:59. No outcome value has been computed.
+**Group:** Nikiforos (WP1), Myron (WP2), Michalis (WP3)  
+**Status:** DRAFT. To be agreed by all three and committed with `protocol.md` before Fri 20 Nov, 23:59. No outcome value has been computed. This is a working plan: windows, covariates and controls are provisional, and any change after the protocol commit is logged in `amendments.md` with its date and reason.
 
 ## Question
 
@@ -27,7 +27,7 @@ Cholesterol is tested about once every 6.5 years in this cohort; weight is recor
 - **Censoring:** death, end of data (2026-09-25), comparator starting metformin.
 - **Confounders (baseline only):** age, sex, baseline weight, obesity, hypertension, T2D vs prediabetes, calendar year, number of baseline encounters.
 - **Adjustment:** regression; propensity score weighting with balance diagnostics as the "going further" item.
-- **Controls:** a negative control outcome and a positive control, chosen and justified in the protocol, run through the same pipeline.
+- **Controls (candidates, final choice and justification in the protocol):** negative control outcome: a new acute viral pharyngitis in follow-up, which metformin should not affect; negative control exposure: starting amoxicillin, which should not change weight; positive control: starting an antihypertensive → systolic blood pressure, a known effect in this cohort. All run through the same pipeline.
 - **Immortal time:** both groups start follow-up at their own index date; the naive "ever treated" version is reported alongside to show the size of the bias.
 - **Sensitivity:** every exposure/outcome phenotype definition, plus the outcome window.
 
@@ -35,7 +35,7 @@ Cholesterol is tested about once every 6.5 years in this cohort; weight is recor
 
 | | Owner | Produces |
 |---|---|---|
-| WP1 · protocol and phenotypes | Giannis | `protocol.md`, `phenotypes/`, `amendments.md`, R1 |
+| WP1 · protocol and phenotypes | Nikiforos | `protocol.md`, `phenotypes/`, `amendments.md`, R1 |
 | WP2 · analysis dataset | Myron | `dataset.py`, Table 1, flow diagram, missingness, R2 |
 | WP3 · estimate and controls | Michalis | `analysis.py`, results, controls, sensitivity, R3 |
 | Shared | all | R4, `REPORT.md`, slides, two rehearsals |
