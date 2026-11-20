@@ -1,0 +1,18 @@
+concept,definition,source_table,system,code,description,rule
+metformin,E1;E2,medications,RxNorm,860975,24 HR metformin hydrochloride 500 MG Extended Release Oral Tablet,first START = index; E2 also DISPENSES >= 2
+body_weight,O1;O2,observations,LOINC,29463-7,Body Weight (kg),O1 first in [+90;+730] minus last in [-365;0]; O2 nearest +365 in [+180;+540] minus mean in [-365;0]
+type2_diabetes,P1;P2,conditions,SNOMED,44054006,Type 2 diabetes mellitus,START <= index
+type2_diabetes,P2,medications.REASONCODE,SNOMED,44054006,Type 2 diabetes mellitus (prescription reason),any prescription START <= index
+prediabetes,P1;P2,conditions,SNOMED,15777000,Prediabetes,START <= index
+hypertension,H1;H2,conditions,SNOMED,59621000,Essential hypertension,START <= index
+hypertension,H1;H2,conditions,SNOMED,38341003,Hypertensive disorder systemic arterial,START <= index
+hypertension,H2,medications,RxNorm,308136,amLODIPine 5 MG Oral Tablet,START <= index
+hypertension,H2,medications,RxNorm,314076,lisinopril 10 MG Oral Tablet,START <= index
+obesity,B1;B2,conditions,SNOMED,162864005,Body mass index 30+ - obesity,START <= index
+obesity,B2,observations,LOINC,29463-7,Body Weight (kg),last in [-365;0] >= 100
+hyperlipidaemia,L1;L2,conditions,SNOMED,55822004,Hyperlipidemia,START <= index
+hyperlipidaemia,L2,medications,RxNorm,312961,simvastatin 20 MG Oral Tablet,START <= index
+smoking,S1;S2,observations,LOINC,72166-2,Tobacco smoking status NHIS,last before index; S1 never/former/current; S2 current vs not
+pregnancy,G1,conditions,SNOMED,72892002,Normal pregnancy,exclude if START in [-365;0]; censor at START in follow-up
+nc_outcome,NCO,conditions,SNOMED,195662009,Acute viral pharyngitis,new START in [+1;+730]
+nc_exposure,NCE,medications,RxNorm,308192,amoxicillin 500 MG Oral Capsule,first START = index
