@@ -16,6 +16,3 @@ smoking,S1;S2,observations,LOINC,72166-2,Tobacco smoking status NHIS,last before
 pregnancy,G1,conditions,SNOMED,72892002,Normal pregnancy,exclude if START in [-365;0]; censor at START in follow-up
 nc_outcome,NCO,conditions,SNOMED,195662009,Acute viral pharyngitis,new START in [+1;+730]
 nc_exposure,NCE,medications,RxNorm,308192,amoxicillin 500 MG Oral Capsule,first START = index
-pc_secondary,PC2,medications,RxNorm,308136,amLODIPine 5 MG Oral Tablet,first START = index
-pc_secondary,PC2,medications,RxNorm,314076,lisinopril 10 MG Oral Tablet,first START = index
-pc_secondary,PC2,observations,LOINC,8480-6,Systolic Blood Pressure (mm[Hg]),same windows as O1
